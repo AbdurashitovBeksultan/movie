@@ -1,0 +1,52 @@
+
+html {
+  font-size: 62.5%;
+}
+
+ input{
+	outline: none;
+	margin-top: 2rem;
+	text-align: center;
+   cursor: pointer;
+   height: 30px;
+   border: 8px solid green;
+} 
+
+input:hover{
+	background-color: #46a6b9;
+	height: 50px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.image-container {
+	width: 450px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  padding: 3.2rem 1rem; 
+   color: rgb(255, 0, 0);
+  border: 0.2rem solid var(--text-clr);
+  font-size: 1.8rem;
+  border-radius: 0.5rem;
+  transition: all o.3s linear;
+  background-color: #192325;
+  transition: 0.2s;
+} 
+
+ 
+.image-container:hover{
+  transform: translateY(-1.5rem);
+  display: inline-block;
+  color: antiquewhite;
+}  
+
+.image-container:hover image {
+  transform: scale(1.1);
+}
+
+
+
+
+
